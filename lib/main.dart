@@ -7,6 +7,7 @@ class MyCard extends StatelessWidget {
   const MyCard({super.key});
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Material App',
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
